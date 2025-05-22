@@ -7,7 +7,7 @@ import java.util.Objects;
 public class AnagramTest {
     public static void main(String[] args) {
         String st = "ayushi";
-        String st1 = "yuspahi";
+        String st1 = "yuiahi";
         System.out.println(isAnagrams(st, st1));
     }
 

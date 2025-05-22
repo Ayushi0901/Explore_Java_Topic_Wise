@@ -1,5 +1,9 @@
 package org.example;
 
+import java.util.Collection;
+import java.util.Collections;
+import java.util.PriorityQueue;
+
 public class SecondLargestElement {
     public static void main(String[] args) {
         int[] arr={7,6,1};
@@ -13,6 +17,12 @@ public class SecondLargestElement {
             return -1;
 
         }
+        PriorityQueue <Integer> pq=new PriorityQueue<>(Collections.reverseOrder());
+        pq.add(10);
+        pq.add(9);
+        pq.add(7);
+        System.out.println(pq.poll());
+
         int largest= Integer.MIN_VALUE; //7,6,1
         int smallest=Integer.MIN_VALUE;
         for(int i=0;i<arr.length;i++){
