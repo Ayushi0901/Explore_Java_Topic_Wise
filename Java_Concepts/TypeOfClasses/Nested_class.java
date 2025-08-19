@@ -1,0 +1,40 @@
+package TypeOfClasses;
+
+import javafx.beans.binding.When;
+
+import java.lang.reflect.Member;
+
+/**
+ * Class within another class is called Nested Class.
+ * When to use?
+ * If you know that, a class(A) will be used by only one another class(B), then instead of created new file(A.java) for it, we can create nested class inside B class itself.
+ * And Also help us to group logically related classes in one file.
+ * Scope:
+ * Its Scope is same as of its Outer class.
+ * It is of 2 types:
+ *    1. Static Nested Class -
+ *                    It do not have access to the non static instance variable and method of outer class.
+ *                    Its object can be initiated without initiating the object of outer class.
+ *                    It can be private, public, protected or package-private(default, no explicit declaration
+ *    2. Non Static Nested Class (Inner Class or) Non Static Nested Class:
+ *                    It have access to all the instance variable and method of outer class.
+ *                    Its object can be initiated on after initiating the object of outer class.
+ *      (i) Member Inner Class-  its can be private, public, protected, default
+ *      (ii) Local Inner Class- These are those classes which are defined in any block like for loop, while loop block, If condition block, method etc.
+ *                              It can not be declared as private, protected, public. Only default(not defined explicit) access modifier is used.
+ *                              It can not be initiated outside of this block
+ *       (iii)  Anonymous Inner Class- An inner class without a name called Anonymous class.
+ *                                     Why its used:
+ *                                      When we want to override the behaviour of the method without even creating any subclass.
+ */
+
+public class Nested_class {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
+    public static void main(String[] args) {
+
+    }
+}

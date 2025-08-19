@@ -34,7 +34,7 @@ public abstract class AbstractClass {
             //implementation of it goes here
         }
 
-        public abstract class Audi extends AbstractClass {//Concrete class inheriting abstract class (luxury car)
+        public abstract static class Audi extends AbstractClass {//Concrete class inheriting abstract class (luxury car)
             Audi(int mileage) {
                 super(mileage);
             }

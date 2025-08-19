@@ -1,7 +1,12 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class Iterable {
     /*
@@ -32,28 +37,28 @@ Enhanced for-loop: Java provides a more concise way to iterate over collections 
 //
 //    }
 
-//    //Iterating over a set
-//    public  static void main(String args[]) {
-//        Set<String> s = new HashSet<>();
-//        s.add("Ayushi");
-//        s.add("ROhan");
-//        s.add("Ritik");
-//        Iterator<String> i=s.iterator();
-//        while(i.hasNext()){
-//            System.out.println("print name"+i.next());
-//
-//        }
-//        for(String names:s){
-//            System.out.println(names);
-//        }
-//    }
+    //Iterating over a set
+    public  static void main(String args[]) {
+        Set<String> s = new HashSet<>();
+        s.add("Ayushi");
+        s.add("ROhan");
+        s.add("Ritik");
+        Iterator<String> i=s.iterator();
+        while(i.hasNext()){
+            System.out.println("print name"+i.next());
+
+        }
+        for(String names:s){
+            System.out.println(names);
+        }
+    }
 
 //    //foreach java 8
 //    public static void main(String[] args) {
 //        List<Integer> it = Arrays.asList(1,9,3,5);
 //        it.forEach(its-> System.out.println(its));
 //    }
-
+//
 //    //Iterating over a map
 // public static  void main(String[] args){
 //     Map<String, Integer> mp= new HashMap<>();
@@ -61,22 +66,22 @@ Enhanced for-loop: Java provides a more concise way to iterate over collections 
 //     mp.put("Rohan",3);
 //     mp.forEach((key,value)-> System.out.println(key+":"+value*3));
 // }
-
-
-    public static void main(String[] args) {
-        ArrayList<String> fruits = new ArrayList<>();
-        fruits.add("Apple");
-        fruits.add("Banana");
-        fruits.add("Cherry");
-        fruits.add("Date");
-        Iterator<String> it = fruits.iterator();
-        while (it.hasNext()) {
-            if (it.next().equals("Apple")) {
-                it.remove();
-            }
-        }
-        System.out.println(fruits);
-    }
+//
+//
+//    public static void main(String[] args) {
+//        ArrayList<String> fruits = new ArrayList<>();
+//        fruits.add("Apple");
+//        fruits.add("Banana");
+//        fruits.add("Cherry");
+//        fruits.add("Date");
+//        Iterator<String> it = fruits.iterator();
+//        while (it.hasNext()) {
+//            if (it.next().equals("Apple")) {
+//                it.remove();
+//            }
+//        }
+//        System.out.println(fruits);
+//    }
 
 }
 
