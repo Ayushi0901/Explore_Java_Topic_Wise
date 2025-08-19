@@ -13,14 +13,15 @@ public class Names_Query {
         for (String l2 : list2) {
             int count = 0;
             for (String l1 : list1) {
-                if (l1.startsWith(l2) && l2.length() < l1.length()) {
+                if (l2.length() < l1.length() && l1.startsWith(l2)) {
                     count++;
                 }
+
             }
             res.add(count);
+
 
         }
         System.out.println(res);
     }
 }
-

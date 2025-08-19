@@ -1,7 +1,6 @@
 package org.example;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -10,7 +9,7 @@ public class CommonCharBtwStr {
     public static void main(String[] args) {
         String st1 = "thin sticks";
         String st2 = "thick bricks";
-        CommonCharacterBtwStr(st1, st2); //thisick //chiikst
+        CommonCharacterBtwStr(st1, st2); //thisick //chikst
 
     }
 
@@ -29,15 +28,13 @@ public class CommonCharBtwStr {
                 commonChar.add(entry.getKey());
             }
         }
-//        Collections.sort(commonChar);
-for(char c='a';c<'z';c++){
-    if (mp1.containsKey(c) && mp2.containsKey(c)) {
-        System.out.print(c); // only print once
-    }
-}
-//        for (char ch : commonChar) {
-//            System.out.println(ch);
-//        }
+
+        for (char c = 'a'; c < 'z'; c++) {
+            if (mp1.containsKey(c) && mp2.containsKey(c)) {
+                System.out.print(c); 
+            }
+        }
+
     }
 
 }

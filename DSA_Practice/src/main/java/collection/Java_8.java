@@ -13,7 +13,7 @@ interface Msg {
 public class Java_8 {
     public static void main(String[] args) {
 //        Msg msg = (studentName -> System.out.println("hi stupid " + studentName));
-//        msg.msg("Sanket");
+//        msg.msg("Ayu");
 //        List<Integer> listOfIntegers = Arrays.asList(71, 18, 42, 21, 67, 32, 95, 14, 56, 87);
 //        Map<Boolean, List<Integer>> evenNum = listOfIntegers.stream()
 //                .collect(Collectors.partitioningBy(n -> n % 2 == 0));

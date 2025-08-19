@@ -1,12 +1,13 @@
 package org.example;
 
 public class LargestElement {
-    static int largestElement(int[] arr) {
-        int max=Integer.MIN_VALUE;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]>max){
-                max=arr[i];
+    static int largestElement(int[] arrs) {
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < arrs.length; i++) {
+            if (arrs[i] > max) {
+                max = arrs[i];
             }
+
         }
         return max;
     }

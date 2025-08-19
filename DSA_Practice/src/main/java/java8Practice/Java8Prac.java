@@ -11,7 +11,7 @@ public class Java8Prac {
     public static void main(String[] args) {
         List<Integer> listOfInt = List.of(1,2, 3, 4, 5,8,7,5,4,3);
         List<Integer> listOfIntegers = Arrays.asList(45, 12, 56, 15, 24, 75, 31, 89);
-String st= "Ayushi the great";
+        String st= "Ayushi the great";
         String s1 = "RaceCar";
         String s2 = "CarRacef";
         //Seperate Odd and even number
